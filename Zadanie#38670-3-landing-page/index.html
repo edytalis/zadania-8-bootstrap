@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Landing Page</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-lg-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Showcase</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Team</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="false"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/slider-1.jpg" class="d-block w-100" alt="View 1" />
+          <div class="carousel-caption">
+            <h2>First slide label</h2>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/slider-2.jpg" class="d-block w-100" alt="View 2" />
+          <div class="carousel-caption">
+            <h2>Second slide label</h2>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <section id="services" class="services bg-light">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-4 service-item">
+            <h3>Pierwszy tekst</h3>
+            <p class="lead mb-0">
+              Lorem ipsum dolor sit amet consectetur adipisicing.
+            </p>
+          </div>
+          <div class="col-md-4 service-item">
+            <h3>Drugi tekst</h3>
+            <p class="lead mb-0">
+              Sit amet consectetur adipisicing Lorem ipsum dolor sit
+            </p>
+          </div>
+          <div class="col-md-4 service-item">
+            <h3>Trzeci tekst</h3>
+            <p class="lead mb-0">
+              Ipsum dolor sit amet consectetur adipisicing elit. Similique
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="showcase" class="showcase">
+      <div class="container-fluid">
+        <div class="row">
+          <div
+            class="col-md-6 order-md-2 showcase-img"
+            style="background-image: url('img/view-1.jpg')"
+          ></div>
+          <div class="col-md-6 order-md-1 showcase-text">
+            <h2>Fully responsive Design</h2>
+            <p class="lead mb-0">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem
+              ex, eaque animi ducimus vero accusamus explicabo, repellendus hic
+              perferendis voluptate officiis nesciunt eum asperiores maxime?
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div
+            class="col-md-6 showcase-img"
+            style="background-image: url('img/view-2.jpg')"
+          ></div>
+          <div class="col-md-6 showcase-text">
+            <h2>Update for Bootstrap</h2>
+            <p class="lead mb-0">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem
+              ex, eaque animi ducimus vero accusamus explicabo, repellendus hic
+              perferendis voluptate officiis nesciunt eum asperiores maxime?
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div
+            class="col-md-6 order-md-2 showcase-img"
+            style="background-image: url('img/view-3.jpg')"
+          ></div>
+          <div class="col-md-6 order-md-1 showcase-text">
+            <h2>Easy to Use</h2>
+            <p class="lead mb-0">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem
+              ex, eaque animi ducimus vero accusamus explicabo, repellendus hic
+              perferendis voluptate officiis nesciunt eum asperiores maxime?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="team" class="team bg-light">
+      <div class="container text-center">
+        <h2 class="mb-5">Our Team</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="team-item mx-auto">
+              <img
+                src="img/team-1.jpg"
+                alt="Team member 1"
+                class="rounded-circle img-fluid mb-3"
+              />
+              <p class="h5">Małgorzata Kozłowska</p>
+              <p class="mb-0">SEO</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="team-item mx-auto">
+              <img
+                src="img/team-2.jpg"
+                alt="Team member 1"
+                class="rounded-circle img-fluid mb-3"
+              />
+              <p class="h5">Grzegorz Kowalski</p>
+              <p class="mb-0">CEO</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="team-item team-item-last mx-auto">
+              <img
+                src="img/team-3.jpg"
+                alt="Team member 1"
+                class="rounded-circle img-fluid mb-3"
+              />
+              <p class="h5">Aleksandra Sroka</p>
+              <p class="mb-0">Owner</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--     <section class="call-to-action">
+      <div class="container text-white text-center">
+        <h2 class="b-5">Ready to get started? Sign up now!</h2>
+        <form>
+          <div class="col-md-9">
+            <label for="inputPassword2" class="visually-hidden">E-mail address</label>
+            <input type="e-mail" class="form-control" id="inputPassword2" placeholder="E-mail address"/>
+          </div>
+          <div class="col-md-3">
+            <button type="submit" class="btn btn-primary mt-3">Submit</button>
+          </div>
+        </form>
+      </div>
+    </section> -->
+
+    <section class="call-to-action">
+      <div class="container text-white text-center">
+        <h2 class="b-5">Ready to get started? Sign up now!</h2>
+        <form>
+          <div class="row">
+            <div class="col-mb-9">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="E-mail address"
+                aria-label="E-mail address"
+              />
+            </div>
+            <div class="col-mb-3 mt-3">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer text-center">
+      <div class="conteiner mt-3">
+        <p class="b-0 text-muted">
+          <small>© Your Website 2022. All Rights Reserved.</small>
+        </p>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
