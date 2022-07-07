@@ -1,3 +1,8 @@
-button:hover {
+button.btn-custom {
+    color: orange;
+}
+
+button.btn-custom:hover {
+    color: rgb(159, 155, 155);
     text-decoration: underline;
 }
